@@ -1,0 +1,19 @@
+{
+    "sportsman_leader": 
+        {
+            "points": 69,
+            "name": "Bob Belcher"
+        },
+    "drivers_leader": 
+    {
+        "points": 420,
+        "name": "Gene Belcher"
+    },
+
+    "messages": [
+        "I used to rock and roll all night and party every day. Then it was every other day... now I'm lucky to find half an hour a week in which to get funky.~Homer Simpson",
+        "Ralph, Jesus did not have wheels.~Ms. Albright",
+        "Remember the time he ate my goldfish? And you lied and said I never had a goldfish? Then why did I have the bowl, Bart? Why did I have the bowl?~Milhouse VanHouten",
+        "Remember: if you get lost, you can always find east by staring directly at the sun.~Bart Simpson"
+    ]
+}
