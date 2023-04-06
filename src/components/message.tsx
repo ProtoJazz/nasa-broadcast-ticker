@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Message({content, onLoopDone}) {
+export default function Message({content, onLoopDone} : any) {
   return (
     <>
     <div className={styles.info} >

@@ -9,7 +9,7 @@ import React, { useEffect } from 'react'
 import Message from '@/components/message'
 
 export async function getStaticProps() {
-  const localData = await getLocalData()
+  const localData : any = await getLocalData()
 
   return {
     props: { localData }
@@ -17,7 +17,7 @@ export async function getStaticProps() {
 }
 
 
-export default function Ticker({localData}) {
+export default function Ticker({localData} : any) {
     const [message_index, setMessagesIndex] = React.useState(0);
 
     function getNextMessage() {
