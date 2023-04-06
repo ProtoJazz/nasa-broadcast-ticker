@@ -21,16 +21,13 @@ export default function Ticker({localData}) {
     const [message_index, setMessagesIndex] = React.useState(0);
 
     function getNextMessage() {
+        console.log("HORSE")
         if(message_index == localData.messages.length - 1) {
             setMessagesIndex(0);
         } else {
             setMessagesIndex((prev_index) => prev_index + 1);
         }
     }
-    useEffect(() => {
-        const interval = setInterval(getNextMessage, 18000);
-        return () => clearInterval(interval);
-      }, [])
   return (
     <>
      
@@ -45,7 +42,7 @@ export default function Ticker({localData}) {
                         <Driver name={localData.drivers_leader.name} points={localData.drivers_leader.points} championship={"drivers"} ></Driver>
                         
                         </div>
-                        <Message content={localData.messages[message_index]}></Message>
+                        <Message content={localData.messages[message_index]} onLoopDone={getNextMessage}></Message>
                     </div>
                     </div>
                     <div className={styles.logo_container}></div>

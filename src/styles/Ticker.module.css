@@ -105,15 +105,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
   }
   
   .info {
-    color: white;
-    animation-name: marquee;
-    animation-duration: 19s;
-    transition: 10s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    text-align: right;
-    position: absolute;
-    padding-top: 8px;
     right: -8%;
   }
   
